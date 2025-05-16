@@ -1,2 +1,7 @@
 print('Hello World')
 print('This is Markiplier')
+print('Typed out')
+print('Typed out')
+print('Typed out')
+print('Typed out')
+print('Typed out')

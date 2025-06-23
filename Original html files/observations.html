@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Climate Change Analysis | Bureau of Meteorology</title>
+    <meta name="description" content="Explore Australian climate change data from 1970-2020 through Bureau of Meteorology weather stations">
+    <link rel="stylesheet" href="observations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo.png" alt="Bureau of Meteorology Logo" class="logo">
+                <h1>Bureau of Meteorology</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#" class="active">Weather Stations</a></li>
+                    <li><a href="timeperiod_comparison.html">Observations</a></li>
+                    <li><a href="#">Climate Data</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header class="background-banner">
+        <img src="resources/Autumn photo.jpg" alt="Autumn in Australia" class="autumn">
+        <div class="vignette-box">
+            <div class="empty-space"></div>
+            <div class="subtitle-container">
+                <p class="subtitle-text">Enter start latitude</p>
+                <p class="subtitle-text">Enter end latitude</p>
+            </div>
+            <form action="/your-server-endpoint" method="POST">
+                <div class="input-container">
+                    <div class="to">
+                        <input type="text" placeholder="-90.000000" class="textbox"> 
+                        <p class="subtitle-text">to</p>
+                    </div>
+                    <input type="text" placeholder="-90.000000" class="textbox">
+                </div>
+                <div class="subtitle-container">
+                    <p class="subtitle-text">Select Climate Metric to Display</p>
+                </div>
+                <div class="radio-container">
+                    <div class="radio">
+                        <div class="checkbox-container">
+                            <p class="checkbox-text">Temperature</p>
+                            <input type="checkbox" class="checkbox"/></input>
+                        </div>
+                        <div class="checkbox-container">
+                            <p class="checkbox-text">Rainfall</p>
+                            <input type="checkbox" class="checkbox"/></input>
+                        </div>
+                        <div class="checkbox-container">
+                            <p class="checkbox-text">Humidity</p>
+                            <input type="checkbox" class="checkbox"/></input>
+                        </div>
+                        <div class="checkbox-container">
+                            <p class="checkbox-text">Windspeed</p>
+                            <input type="checkbox" class="checkbox"/></input>
+                        </div>
+                    </div>
+                </div>
+                <div class="empty-space"></div>
+                <div class="submit-container">
+                    <button class="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <header class="white-dashboard">
+        <ul class="dashboard-list">
+            <li>Station ID</li>
+            <li>Name</li>
+            <li>Date</li>
+            <li>Temp(°C)</li>
+            <li>Rainfall(mm)</li>
+            <li>Humidity(%)</li>
+            <li>Windspeed(km/h)</li>
+        </ul>
+    </header>
+    <hr>
+    <header class="results-description1">
+        <ul class="entries-list">
+            <li>VIC1001</li>
+            <li>Melbourne City Centre</li>
+            <li>2015-01-15</li>
+            <li>29.3</li>
+            <li>5.2</li>
+            <li>60</li>
+            <li>10</li>
+        </ul>
+    </header>
+    <hr>
+    <header class="results-description2">
+        <ul class="entries-list">
+            <li>VIC1001</li>
+            <li>Melbourne City Centre</li>
+            <li>2015-01-15</li>
+            <li>29.3</li>
+            <li>5.2</li>
+            <li>60</li>
+            <li>10</li>
+        </ul>
+    </header>
+    <hr>
+    <header class="results-description1">
+        <ul class="entries-list">
+            <li>VIC1001</li>
+            <li>Melbourne City Centre</li>
+            <li>2015-01-15</li>
+            <li>29.3</li>
+            <li>5.2</li>
+            <li>60</li>
+            <li>10</li>
+        </ul>
+    </header>
+    <hr>
+    <header class="results-description2">
+        <ul class="entries-list">
+            <li>VIC1001</li>
+            <li>Melbourne City Centre</li>
+            <li>2015-01-15</li>
+            <li>29.3</li>
+            <li>5.2</li>
+            <li>60</li>
+            <li>10</li>
+        </ul>
+    </header>
+    <hr>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Bureau of Meteorology - Climate Change Analysis</p>
+            <p>Quality-controlled climate data from 1970 to 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+    
+    
